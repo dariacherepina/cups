@@ -1,0 +1,65 @@
+*,
+*:after,
+*:before{
+    box-sizing: border-box;
+}
+
+.h2,
+p{
+    margin-top: 0;
+}
+.container{
+    height: 600px;
+    max-width: 1200px;
+    margin: 50px auto;
+    background-color: #fdde7e;
+    display: flex;
+    padding: 80px 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+.card{
+    width: 30%;
+    background-color: white;
+    margin: 0px 15px;
+    position: relative;
+    text-align: center;
+    padding: 42px 0 36px;  
+    transition: all .3s ease-out; 
+}
+.card-text {
+    max-width: 134px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #333333;
+    font-family: "Miso", sans-serif;
+    margin: 0 auto;
+    letter-spacing: 0.5px;
+}
+.card-price{
+    font-size: 70px;
+    color: #02995b;
+    font-family: "Miso", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+}
+.card__image{
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-family: 'Loto', sans-serif;
+    color: #333;
+    margin-bottom: 30px;
+}
+.card-title{
+    font-size: 56px;
+    color: #333;
+    font-family: "Miso", sans-serif;
+    text-align: center;
+    font-weight: 400;
+}
+.card:hover{
+    padding: 52px 0 55px;
+} 
+
+
